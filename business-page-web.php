@@ -6,7 +6,7 @@
 	<div class="content-wrap business-page-custom-wrap">
 		<div class="row">
 			<div class="col-md-6 connect-page" data-intro='Step8' data-step="8">
-				<h1 class="title-text">Connect Existing Page</h1>
+				<h2 class="title-text">Connect Existing Page</h2>
 				<div class="panel-group">
 				    <div class="panel panel-default">
 				      	<div class="panel-heading panel-custom-heading">
@@ -34,10 +34,10 @@
 				      	</div>
 				    </div>
 				</div>
-				<button class="btn btn-lg btn-primary custom-btn-style">Connect</button>
+				<button class="btn btn-lg btn-primary custom-btn-style big-btn">Connect</button>
 			</div>
 			<div class="col-md-6 add-page-wrap" data-intro='Step9' data-step="9">
-				<h1 class="title-text">Add New Page</h1>
+				<h2 class="title-text">Add New Page</h2>
 				<a href="" class="plus-sign-bg"><span class="fa fa-plus plus-sign"></span></a>
 			</div>
 		</div>

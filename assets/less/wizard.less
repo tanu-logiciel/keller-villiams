@@ -12,7 +12,9 @@
 		border-radius: 4px;
 		box-shadow: 0 3px 4px #ccc;
 		padding: 30px;
-		margin: 15px 0 40px;
+		&.form-group {
+			margin: 10px 0 40px;
+		}
 		img, p {
 			display: inline-block;
 			vertical-align: middle;
@@ -23,9 +25,12 @@
 			margin-left: 15px;
 		}
 	}
+	.form-group {
+		margin-bottom: 25px;
+	}
 }
 .wizard-inner-section {
-	padding: 40px 70px;
+	padding: 50px 70px 20px;
 	h5 {
 		font-size: 20px;
 		// color: $primary-color;
@@ -221,19 +226,27 @@
 		display: block;
 		ul {
 			margin: 0;
+			padding: 0;
 			li {
 				display: inline-block;
 				width: auto;
 			    position: relative;
 			    text-align: center;
 			    vertical-align: middle;
-			    padding: 40px 50px 50px;
+			    padding: 40px 55px 50px;
 			    padding-bottom: 50px;
 				&.current {
 					a {
 						color: darken(@grey-color, 10%);
 						&:after {
 							border: 8px solid @blue-color;
+						}
+					}
+				}
+				&.done {
+					a {
+						&:after {
+							background-color: @blue-color;
 						}
 					}
 				}
@@ -293,12 +306,23 @@
 		}
 	}
 	.actions {
-		padding: 8px 65px 50px;
+		padding: 0 70px 50px;
 		font-size: 0;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
 		li {
 			display: inline-block;
 			vertical-align: middle;
 			width: 50%;
+			text-align: left;
+			&.disabled {
+				opacity: 0;
+				a .btn {
+					cursor: default;
+				}
+			}
 		}
 		a {
 			font-size: 16px;
@@ -311,11 +335,54 @@
 			}
 		}
 		a[href="#next"], a[href="#finish"] {
-			// color: $primary-color;
 			float: right;
 		}
 	}
 	.current-info, .number {
 		display: none;
+	}
+}
+@media(max-width: 767px) {
+	.wizard-container {
+		.browse-option.form-group {
+			margin: 40px 0;
+		}
+	}
+	.wizard-steps .steps ul li {
+		padding: 40px 40px 50px;
+	}
+}
+@media(max-width: 600px) { 
+	.wizard-steps {
+		.steps ul li {
+			width: 100%;
+			&:first-child {
+				a {
+					&:before {
+						left: 0;
+					}
+				}
+			}
+			&:last-child {
+				a {
+					&:before {
+						right: 0;
+					}
+				}
+			}
+		}
+		.actions {
+			li {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 10px;
+				a[href="#next"], a[href="#finish"] { 
+					float: none;
+				}
+			}
+		}
+	}
+	.wizard-inner-section {
+		padding: 50px 0 20px;
 	}
 }

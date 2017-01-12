@@ -12,9 +12,12 @@ a:hover {
 // 		width: 1370px;
 // 	}
 // }
+a {
+	cursor: pointer;
+}
 .content-wrap {
-	margin-top: 75px;
-	margin-bottom: 75px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .business-page-custom-wrap {
 	padding: 35px;
@@ -69,22 +72,34 @@ a:hover {
 	}
 }
 .custom-btn-style {
-	padding: 15px 30px;
-    font-size: 30px;
+	// padding: 15px 30px;
+    font-size: 17px;
     font-weight: bold;
-    background: #4471f1;
-    border-color: #4471f1;
-    margin-bottom: 150px;
+    background: @blue-color;
+    border-color: @blue-color;
+    // margin-bottom: 150px;
     .box-shadow(0 3px 3px #bbb);
-    &:hover {
-    	background: darken(#4471f1, 10%)
+    &:hover, &:active, &:focus {
+    	background: darken(@blue-color, 5%);
+    	border-color: darken(@blue-color, 5%);
+    }
+    .active {
+    	&:hover, &:active, &:focus {
+	    	background: darken(@blue-color, 5%);
+	    	border-color: darken(@blue-color, 5%);
+	    }
+    }
+    &.big-btn {
+    	font-size: 24px;
     }
 }
 .connect-page {
 	border-right: 1px solid #ccc;
+	padding-bottom: 150px;
 	.title-text {
 		margin-top: 0;
 		margin-bottom: 60px;
+		color: @black-color;
 	}
 }
 .add-page-wrap {
@@ -112,6 +127,7 @@ a:hover {
 }
 .title-text {
 	font-weight: 600;
+	color: @black-color;
 }
 /* Page Key Metrics Insights */
 .custom-row {
@@ -259,4 +275,71 @@ input.blue[type="checkbox"]:checked + label:after {
 .percent-comparison-col-3,
 .percent-comparison-col-4 {
 	border-top: 2px solid #ededee;
+}
+
+// Suggestions  Style
+.suggestions-container {
+	padding: 25px 0;
+	.suggest-col {
+		display: inline-block;
+	    margin: 15px;
+	    vertical-align: middle;
+	    width: 14%;
+	    &:first-child {
+	    	margin-left: 0;
+	    }
+	    &:last-child {
+	    	margin-right: 0;
+	    }
+		.img-container {
+		    background: #f6f6f6 none repeat scroll 0 0;
+		    border-top-left-radius: 10px;
+		    border-top-right-radius: 10px;
+		    padding: 15px;
+		    img {
+		    	height: 70px;
+		    }
+		}
+		p {
+	    	position: relative;
+			margin: 0;
+			padding: 10px;
+			background-color: #f9f9f9;
+			border-bottom-left-radius: 10px;
+		    border-bottom-right-radius: 10px;
+		    .link-icon {
+		    	position: absolute;
+		    	left: 5px;
+		    	top: 50%;
+		    	margin-top: -10px;
+		    }
+		}
+	}
+}
+@media(max-width: 1200px) {
+	.suggestions-container {
+		.suggest-col {
+			width: 29%;
+			&:first-child {
+				margin-left: 15px;
+			}
+			&:last-child {
+				margin-right: 15px;
+			}
+		}
+	}
+}
+@media(max-width: 768px) {
+	.suggestions-container {
+		.suggest-col {
+			width: 100%;
+			margin: 10px 0;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
 }

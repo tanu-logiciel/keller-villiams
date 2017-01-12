@@ -9,10 +9,10 @@ $(function(){
         transitionEffect: "slideLeft",
         autoFocus: true,
         labels: {
-            cancel: "Cancel",
-            finish: "Finish",
+            cancel: "<button class='btn btn-primary custom-btn-style'>Cancel</button>",
+            finish: "<button class='btn btn-primary custom-btn-style'>Finish</button>",
             next: "<button class='btn btn-primary custom-btn-style'>Next step</button>",
-            previous: "<button class='btn btn-primary custom-btn-style'>Previous step</button>",
+            previous: "<button class='btn btn-primary custom-btn-style'>Previous</button>",
         },
         onStepChanged: function (event, currentIndex) { 
             tabs_section();
