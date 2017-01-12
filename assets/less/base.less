@@ -1,0 +1,254 @@
+body {
+	background: #f1f1f1;
+	color: #aaaaaa;
+}
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+@media (min-width: 1400px) {
+	.container {
+		width: 1370px;
+	}
+}
+.content-wrap {
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.business-page-custom-wrap {
+	padding: 50px 35px;
+	background: #fff;
+}
+.panel-group {
+	border: 1px solid #a5a7a9;
+	width: 90%;
+	margin-bottom: 40px;
+	.radius(4px);
+	.panel+.panel {
+		margin-top: 0;
+	}
+	.panel-default {
+		border: 0;
+		border-bottom: 1px solid #a5a7a9;
+		.radius(0);
+		.panel-custom-heading {
+			padding: 0;
+			border: 0;
+			background: #fff;
+			.panel-title {
+				padding: 15px 20px;
+				font-size: 20px;
+				color: #9a9d9f;
+				a {
+					display: block;
+				}
+				.toggle-symbol {
+					position: relative;
+					&:after {
+						position: absolute;
+						content: "\f107";
+						right: 0;
+						font-family: FontAwesome;
+						font-size: 25px;
+						color: #333;
+						top: -5px;
+					}
+				}
+			}
+		}
+		&:first-child {
+			.border-top-left-radius(4px);
+			.border-top-right-radius(4px);
+		}
+		&:last-child {
+			border: 0;
+			.border-bottom-left-radius(4px);
+			.border-bottom-right-radius(4px);
+		}
+	}
+}
+.custom-btn-style {
+	padding: 15px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background: #4471f1;
+    border-color: #4471f1;
+    margin-bottom: 150px;
+    .box-shadow(0 3px 3px #bbb);
+    &:hover {
+    	background: darken(#4471f1, 10%)
+    }
+}
+.connect-page {
+	border-right: 1px solid #ccc;
+	.title-text {
+		margin-top: 0;
+		margin-bottom: 60px;
+	}
+}
+.add-page-wrap {
+	text-align: center;
+	margin-top: 70px;
+	.plus-sign-bg {
+		background: #4fc17c;
+		display: block;
+		margin: auto;
+		margin-top: 50px;
+		height: 110px;
+		width: 110px;
+		.radius(50%);
+		color: #fff;
+		position: relative;
+		.box-shadow(0 3px 3px #bbb);
+		.plus-sign {
+			font-size: 80px;
+			position: absolute;
+			left: 0;
+			right: 0;
+			line-height: 110px;
+		}
+	}
+}
+.title-text {
+	font-weight: 600;
+}
+/* Page Key Metrics Insights */
+.custom-row {
+	margin-bottom: 30px;
+}
+.custom-col {
+	background: #f9f9f9;
+	padding: 30px;
+	img {
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+}
+.selection-outer {
+	text-align: right;
+	margin-bottom: 30px;
+	.selection-style {
+		height: 30px;
+		min-width: 150px;
+	    border-radius: 4px;
+	    padding-left: 5px;
+	    padding-right: 10px;
+	    border-color: #717374;
+	    font-size: 16px;
+	    color: #717374;
+	    -webkit-appearance: none;
+	       -moz-appearance: none;
+    		-ms-appearance: none;
+	    		appearance: none;
+		background: url('../images/drop-arrow.png') no-repeat;
+		background-position: center right;
+		margin-right: 25px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+.checkboxes-wrap {
+	display: inline-block;
+	margin: 0 10px;
+	color: #aaaaaa;
+	label {
+		font-weight: normal;
+	}
+}
+.vs.small {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 3px;
+	color: #aaaaaa;
+}
+input.red[type="checkbox"]:not(:checked) + label:after,
+input.red[type="checkbox"]:not(:checked) + label:before,
+input.red[type="checkbox"]:checked + label:after {
+	border-color: #f38f7f;
+	.radius(4px);
+}
+input.blue[type="checkbox"]:not(:checked) + label:after,
+input.blue[type="checkbox"]:not(:checked) + label:before,
+input.blue[type="checkbox"]:checked + label:after {
+	border-color: #7fb5f3;
+	.radius(4px);
+}
+.table.like-counts {
+	font-size: 16px;
+	margin-bottom: 50px;
+	tr {
+		border-bottom: 1px solid #eceded;
+		&:last-child {
+			border-bottom: 0;
+			td {
+				padding: 20px;
+			}
+		}
+		td,
+		th {
+			border-top: 0;
+		}
+		th {
+			width: 40%;
+			border-right: 1px solid #eceded;
+			color: #4a4a4a;
+		}
+		td {
+			font-size: 18px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}
+.details-title{
+	margin-top: 0;
+	color: #626364;
+	margin-bottom: 30px;
+}
+.percent-counter-wrapper {
+	.count-percent {
+		font-size: 50px;
+		font-weight: 900;
+		position: relative;
+		color: #646464;
+		display: inline-block;
+		&:after {
+			position: absolute;
+			height: 6px;
+			width: 90px;
+			right: 0;
+			content: "";
+			background: #d6d6d6;
+			bottom: -8px;
+		}
+		i {
+			font-size: 25px;
+			vertical-align: middle;
+			color: #3fdc8d;
+			margin-top: -9px;
+		}
+	}
+	.compared-col {
+		text-align: center;
+		.compared-percent {
+			color: #737575;
+			font-size: 25px;
+			margin-top: 10px;
+			.small {
+				color: #a8aaac;
+			}
+		}
+	}
+	.icon-with-text {
+		text-align: center;
+	}
+	.audience {
+		font-weight: 800;
+		color: #95989a;
+		img {
+			vertical-align: top;
+		}
+	}
+}
