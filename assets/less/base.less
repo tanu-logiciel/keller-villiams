@@ -177,7 +177,7 @@ input.blue[type="checkbox"]:checked + label:after {
 }
 .table.like-counts {
 	font-size: 16px;
-	margin-bottom: 50px;
+	margin-bottom: 68px;
 	tr {
 		border-bottom: 1px solid #eceded;
 		&:last-child {
@@ -196,7 +196,7 @@ input.blue[type="checkbox"]:checked + label:after {
 			color: #4a4a4a;
 		}
 		td {
-			font-size: 18px;
+			font-size: 20px;
 			padding-left: 20px;
 			padding-right: 20px;
 		}
@@ -208,12 +208,18 @@ input.blue[type="checkbox"]:checked + label:after {
 	margin-bottom: 30px;
 }
 .percent-counter-wrapper {
+	margin-bottom: 40px;
 	.count-percent {
 		font-size: 50px;
 		font-weight: 900;
 		position: relative;
 		color: #646464;
 		display: inline-block;
+		margin-top: 0;
+		white-space: nowrap;
+		@media(max-width: 1200px) {
+			font-size: 40px;
+		}
 		&:after {
 			position: absolute;
 			height: 6px;
@@ -232,6 +238,9 @@ input.blue[type="checkbox"]:checked + label:after {
 	}
 	.compared-col {
 		text-align: center;
+		.compare-to {
+			font-size: 22px;
+		}
 		.compared-percent {
 			color: #737575;
 			font-size: 25px;
@@ -246,17 +255,93 @@ input.blue[type="checkbox"]:checked + label:after {
 	}
 	.audience {
 		font-weight: 800;
+		font-size: 22px;
 		color: #95989a;
 		img {
 			vertical-align: top;
+			margin-bottom: 0;
 		}
+	}
+	@media (max-width: 992px) {
+		border-bottom: 2px solid #ededee;
 	}
 }
 .percent-comparison-col-1,
 .percent-comparison-col-3 {
-	border-right: 1px solid #e6e7e7;
+	position: relative;
+	&:after {
+		position: absolute;
+		content: "";
+		height: 85%;
+		width: 2px;
+		background: #e6e7e7;
+		right: 0;
+		top: 0;
+		@media(max-width: 992px) {
+			display: none;
+		}
+	}
+}
+.percent-comparison-col-3 {
+	&:after {
+		height: 100%;
+	}
 }
 .percent-comparison-col-3,
 .percent-comparison-col-4 {
-	border-top: 2px solid #ededee;
+	position: relative;
+	.percent-counter-wrapper {
+		margin-bottom: 0;
+		.count-percent {
+			i {
+				color: #ef632e;
+			}
+		}
+	}
+	&:before {
+		position: absolute;
+		content: "";
+		width: 80%;
+		height: 2px;
+		background: #ededee;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: -20px;
+		@media(max-width: 992px) {
+			display: none;
+		}
+	}
+}
+/* CSS for Key metrics Compaign Details Page */
+.campaign-stats-wrap {
+	.table-striped {
+		tbody {
+			tr {
+				&:nth-of-type(odd) {
+					background: transparent;
+				}
+				&:nth-of-type(even) {
+					background: #ececec;
+				}
+			}
+			.switch-col {
+				padding-left: 22px;
+			}
+		}
+		thead {
+			tr {
+				background: #dcdbdb;
+				th {
+					color: #888a8b;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.active-campaign {
+	font-size: 12px;
+	vertical-align: middle;
+	margin-left: 5px;
 }
