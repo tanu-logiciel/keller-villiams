@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+}
+body.main-pages {
+	background: #fff;
+	min-height: 100%;
+}
+.main-header {
+	.navbar-default {
+		border-top: 3px solid #e8e9e9;
+		background: #fff;
+		padding-top: 15px;
+		border-bottom: 0;
+		.border-header {
+			border-bottom: 1px solid #dddfdf;
+			padding-bottom: 2px;
+		}
+		.navbar-nav {
+			.active {
+				a {
+					background: transparent;
+					&:focus,
+					&:hover {
+						background: transparent;
+					}
+				}
+			}
+			li {
+				position: relative;
+				a {
+					color: @grey-color;
+					padding: 23px 20px 18px;
+				}
+				&:after {
+					position: absolute;
+					content: "";
+					width: 1px;
+					height: 30%;
+					background: #e4e5e5;
+					right: 0;
+					top: 55%;
+    				.transform(translateY(-50%));
+				}
+				&:last-child {
+					padding-right: 0;
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+		.navbar-header {
+			.navbar-brand {
+				height: auto;
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
