@@ -1,6 +1,6 @@
 $(function(){
 	//Intro Js
-	introJs().start();
+	// introJs().start();
 	
 	//Wizard
     $("#wizard-steps").steps({
@@ -17,5 +17,9 @@ $(function(){
         onStepChanged: function (event, currentIndex) { 
             tabs_section();
         }
+    });
+   
+    $('#connect-page-selection').find('li').click(function() {
+        $('#selected').html($(this).html());
     });
 })
