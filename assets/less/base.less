@@ -57,6 +57,9 @@ a {
 		border-bottom: 1px solid #ccc;
 		padding-bottom: 75px;
 	}
+	.custom-btn-style {
+		margin-top: 30px;
+	}
 }
 .add-page-wrap {
 	text-align: center;
@@ -404,7 +407,6 @@ input.blue[type="checkbox"]:checked + label:after {
 #connect-page-selection {
 	display: block;
 	.dropdown-toggle {
-		margin-bottom: 30px;
 		width: 100%;
 		text-align: left;
 		background: url("../images/arrow-down-black.png") no-repeat;
@@ -425,12 +427,14 @@ input.blue[type="checkbox"]:checked + label:after {
 		}
 	}
 	.dropdown-menu {
+		position: static;
+		margin-bottom: 30px;
 		width: 100%;
-		top: 50px;
 		padding: 0;
 		margin: 0;
 		.border-top-left-radius(0);
 		.border-top-right-radius(0);
+		.box-shadow(none);
 		li {
 			border-bottom: 1px solid #bbbdbe;
 			a {
@@ -445,10 +449,12 @@ input.blue[type="checkbox"]:checked + label:after {
 		}
 	}
 }
-#connect-page-selection.btn-group.open .dropdown-toggle {
-	.box-shadow(none);
-	.border-bottom-left-radius(0);
-	.border-bottom-right-radius(0);
+#connect-page-selection.open {
+	.dropdown-toggle {
+		.box-shadow(none);
+		.border-bottom-left-radius(0);
+		.border-bottom-right-radius(0);
+	}
 }
 
 /* Create Ad Styling */

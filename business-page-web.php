@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-md-6 col-sm-6 connect-page" data-intro='Step8' data-step="8">
 				<h2 class="title-text">Connect Existing Page</h2>
-				<div id='connect-page-selection' class="btn-group">
+				<div id='connect-page-selection' class="">
 					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<span id="selected">Clara Spriggs-Adams Real Estate</span>
 					</button>

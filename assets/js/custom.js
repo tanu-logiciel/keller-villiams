@@ -22,4 +22,14 @@ $(function(){
     $('#connect-page-selection').find('li').click(function() {
         $('#selected').html($(this).html());
     });
+
+     // Add slideDown animation to Bootstrap dropdown when expanding.
+    $('#connect-page-selection').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideUp animation to Bootstrap dropdown when collapsing.
+    $('#connect-page-selection').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
 })
