@@ -76,7 +76,7 @@
 									aria-expanded="false"
 									data-intro='Step5'
 									data-step="5">
-									<img src="assets/images/user.png"> <span class="fa fa-angle-down"></span></a>
+									<img src="assets/images/user.png" alt="user"> <span class="fa fa-angle-down"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Action</a></li>
 									<li><a href="#">Another action</a></li>
@@ -93,7 +93,7 @@
 		<div class="page-title-header">
 			<div class="container">
 				<div class="page-header">
-					<h3><img src="assets/images/page-icon.png"> Business Pages</h3>
+					<h3><img src="assets/images/page-icon.png" alt="page-icon"> Business Pages</h3>
 				</div>
 				<div class="page-menus-wrap">
 					<ul>
