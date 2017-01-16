@@ -16,7 +16,7 @@
 						<li><a href="#">The Lack Hotich Team - Keller Williams</a></li>
 					</ul>
 				</div>
-				<button class="btn btn-lg btn-primary custom-btn-style big-btn">Connect</button>
+				<button class="btn btn-lg btn-primary custom-btn-style big-btn" onclick="window.location.href='key-metrics-insights.php';">Connect</button>
 			</div>
 			<div class="col-md-6 col-sm-6 add-page-wrap" data-intro='Step9' data-step="9">
 				<h2 class="title-text">Add New Page</h2>

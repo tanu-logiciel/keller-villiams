@@ -30,7 +30,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="index.php">
 							<img alt="Brand" src="assets/images/logo.png">
 						</a>
 					</div>
@@ -39,13 +39,13 @@
 					<div class="nav-menu-list collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav main-menu">
 							<li class="active">
-								<a href="#" data-intro='Step1' data-step="1">Key Metrics <span class="sr-only">(current)</span></a>
+								<a href="key-metrics-insights.php" data-intro='Step1' data-step="1">Key Metrics <span class="sr-only">(current)</span></a>
 							</li>
 							<li>
-								<a href="#" data-intro='Step2' data-step="2">Business Pages</a>
+								<a href="business-page-web.php" data-intro='Step2' data-step="2">Business Pages</a>
 							</li>
 							<li>
-								<a href="#" data-intro='Step3' data-step="3">Create Ad</a>
+								<a href="create-ad.php" data-intro='Step3' data-step="3">Create Ad</a>
 							</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->

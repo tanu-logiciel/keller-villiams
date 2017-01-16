@@ -1,6 +1,6 @@
 $(function(){
 	//Intro Js
-	// introJs().start();
+	introJs().start();
 	
 	//Wizard
     $("#wizard-steps").steps({
