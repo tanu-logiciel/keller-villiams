@@ -67,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><br>
 		<div class="row text-left">
 			<div class="col-sm-6">
 				<div class="range-slider">
@@ -113,7 +113,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><br>
 		<div class="row text-left">
 			<div class="col-sm-6">
 				<div class="form-group">
