@@ -15,7 +15,7 @@
 		&.form-group {
 			margin: 10px 0 40px;
 		}
-		img, p {
+		img, p, span {
 			display: inline-block;
 			vertical-align: middle;
 			margin: 0;
@@ -23,6 +23,9 @@
 		}
 		p {
 			margin-left: 15px;
+		}
+		span {
+			font-size: 24px;
 		}
 	}
 	.form-group {
@@ -95,7 +98,6 @@
 			width: 86%;
 			display: block;
 			box-shadow: none;
-			// @include box-sizing(border-box);
 			&:focus {
 				// border-color: $secondary-color;
 			}
@@ -163,9 +165,6 @@
 				height: 18px;
 				width: 18px;
 				// border-color: $grey-color;
-			}
-			.with-gap[type="radio"]:checked + label::after {
-				// @include scale(0.4);
 			}
 		}
 		.select-wrapper {

@@ -1,0 +1,144 @@
+.photo-col-inner {
+	width: 100%;
+	margin-bottom: 100px;
+	.image-wrap {
+		.border-top-left-radius(4px);
+		.border-top-right-radius(4px);
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.image-detail-wrap {
+		padding: 8px;
+		background: #fff;
+		.icons-wrap {
+			border-bottom: 1px solid #d5d6d6;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			span {
+				margin-left: 10px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+			.post-time {
+				float: right;
+				margin-left: 0;
+				@media(max-width: 1200px) and (min-width: 767px) {
+					float: none;
+					display: block;
+					text-align: right;
+				}
+			}
+		}
+		.image-content {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			.read-more {
+				color: inherit;
+			}
+		}
+	}
+	@media(max-width: 767px) {
+		margin-bottom: 30px;
+	}
+}
+.filter-bar-wrap {
+	background: #fff;
+	margin: 0 0 35px;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	.select-group-wrap {
+		.selection-style {
+			height: 25px;
+		}
+		@media(max-width: 767px) {
+			text-align: left;
+		}
+	}
+}
+.search-wrap {
+	border: 1px solid #c3c3c3;
+	.radius(4px);
+	.search-text {
+		overflow: hidden;
+	    input {
+	    	width: 100%;
+	    	padding-left: 35px;
+	    	padding-right: 10px;
+	    }
+	    .icon-search {
+	    	position: absolute;
+	    	top: 6px;
+	    	left: 25px;
+	    }
+	}
+	.search-btn {
+		float: right;
+	    width: 60px;
+	    border-left: 2px solid #f6f6f6;
+	    input {
+	    	color: @grey-color;
+	    	font-weight: bold;
+	    }
+	}
+    input {
+    	height: 25px;
+    	border: 0;
+    	outline: 0;
+    	background: transparent;
+    }
+    @media(max-width: 767px) {
+    	margin: 15px 0;
+    }
+}
+.photo-tab-wrap {
+	ul {
+		margin-bottom: 0;
+		padding-left: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 15px;
+			a {
+				position: relative;
+				color: @grey-color;
+				font-size: 16px;
+				font-weight: bold;
+				&:after {
+					display: block;
+    				content: '';
+					margin: auto;
+					margin-top: 5px;
+					height: 2px;
+					width: 100%;
+					background: #e8e8e9;
+					.transition(all .5s ease);
+    			}
+			}
+		}
+		.active {
+			a {
+				color: @black-color;
+				&:after {
+					background: #8aa6f6;
+				}
+			}
+		}
+	}
+}
+// Business Page
+// .connect-page-selection {
+// 	margin-bottom: 30px;
+// 	.selection-style {
+// 		width: 80%;
+// 		height: 50px;
+// 		font-size: 17px;
+// 		padding-left: 25px;
+// 		padding-right: 40px;
+// 		background: url("../images/arrow-down-black.png") no-repeat;
+// 		background-position: center right;
+// 		background-size: 35px;
+// 	}
+// }
