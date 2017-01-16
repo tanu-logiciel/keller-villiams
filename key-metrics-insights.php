@@ -5,7 +5,7 @@
 <div class="container">
 	<div class="content-wrap">
 		<div class="row custom-row">
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-6">
 				<div class="custom-col">
 					<div class="selection-outer">
 						<select class="selection-style">
@@ -41,7 +41,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-6">
 				<div class="custom-col">
 					<div class="selection-outer">
 						<select class="selection-style">
@@ -81,7 +81,7 @@
 
 		<!-- Details -->
 		<div class="row custom-row">
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<h2 class="details-title">Page details</h2>
 					<table class="table like-counts">
@@ -119,7 +119,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<div class="row">
 						<div class="col-md-6 percent-comparison-col-1">

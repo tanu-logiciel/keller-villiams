@@ -43,7 +43,7 @@
 			<div class="col-md-12">
 				<div class="custom-col">
 					<h3 class="details-title">Campaign Stats <span class="active-campaign">(4 active campaigns)</span></h3>
-					<div class="campaign-stats-wrap">
+					<div class="campaign-stats-wrap table-responsive">
 						<table class="table table-striped">
 						    <thead>
 							    <tr>
