@@ -1,9 +1,9 @@
 $(function(){
 	//Intro Js
-	introJs().start();
+	// introJs().start();
 	
 	//Wizard
-    $("#wizard-steps").steps({
+    $(".wizard-steps").steps({
         headerTag: "h6",
         bodyTag: ".wizard-inner-section",
         transitionEffect: "slideLeft",
@@ -18,7 +18,8 @@ $(function(){
             tabs_section();
         }
     });
-   
+    
+    /* Dropdown selection for connect page */
     $('#connect-page-selection').find('li').click(function() {
         $('#selected').html($(this).html());
     });

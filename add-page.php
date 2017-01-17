@@ -13,6 +13,9 @@
                     	<div class="col-sm-6">
                     		<div class="form-group">
                     			<input type="text" name="" placeholder="Name" class="form-control">
+                                <div class="fields-error">
+                                    <span>This field is required.</span>
+                                </div>
                     		</div>
                     	</div>
                     	<div class="col-sm-6">

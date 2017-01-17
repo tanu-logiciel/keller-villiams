@@ -217,6 +217,14 @@
 			}
 		}
 	}
+	.form-group {
+		position: relative;
+		.fields-error {
+			position: absolute;
+			margin-top: 2px;
+			color: #f00;
+		}
+	}
 }
 .wizard-steps {
 	display: block;
@@ -384,5 +392,15 @@
 	}
 	.wizard-inner-section {
 		padding: 50px 0 20px;
+	}
+}
+.create-ad {
+	.wizard-steps {
+		max-width: 100%;
+		.wizard-inner-section,
+		.actions {
+			padding-left: 0;
+			padding-right: 0;
+		}
 	}
 }
