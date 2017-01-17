@@ -90,15 +90,13 @@ a {
 	color: @black-color;
 }
 /* Page Key Metrics Insights */
-.custom-row {
-	margin-bottom: 30px;
-}
 .custom-col {
-	background: #f9f9f9;
+	margin-bottom: 30px;
 	padding: 30px;
+	background: #f9f9f9;
 	img {
-		max-width: 100%;
 		margin-bottom: 30px;
+		max-width: 100%;
 	}
 }
 .selection-outer {
@@ -110,7 +108,7 @@ a {
 	min-width: 105px;
     border-radius: 4px;
     padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
     border-color: #adadad;
     color: @grey-color;
     -webkit-appearance: none;
@@ -124,8 +122,10 @@ a {
 	&:last-child {
 		margin-right: 0;
 	}
-	@media(max-width: 480px) {
+	@media(max-width: 540px) {
 		margin-right: 0;
+		width: 100%;
+		margin-bottom: 10px;
 	}
 }
 .selection-style::-ms-expand { /* for IE 11 */
@@ -560,7 +560,7 @@ input.blue[type="checkbox"]:checked + label:after {
 	}
 	.schedule-select {
 		select {
-			width: 12%;
+			width: 13%;
 			padding-left: 0;
 			margin-top: -9px;
 		}
