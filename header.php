@@ -48,6 +48,44 @@
 								<a href="create-ad.php" data-intro='Step3' data-step="3">Create Ad</a>
 							</li>
 						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#"
+									class="dropdown-toggle"
+									data-toggle="dropdown"
+									role="button"
+									aria-haspopup="true"
+									aria-expanded="false"
+									data-intro='Step4'
+									data-step="4">
+									Vanila Web Studio <span class="fa fa-angle-down"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+							<li class="dropdown user-link">
+								<a href="#"
+									class="dropdown-toggle" 
+									data-toggle="dropdown" 
+									role="button" 
+									aria-haspopup="true" 
+									aria-expanded="false"
+									data-intro='Step5'
+									data-step="5">
+									<img src="assets/images/user.png" alt="user"> <span class="fa fa-angle-down"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+						</ul>
 					</div><!-- /.navbar-collapse -->
 					<ul class="nav navbar-nav navbar-right user-info-dropdown">
 						<li class="dropdown">
@@ -93,7 +131,7 @@
 		<div class="page-title-header">
 			<div class="container">
 				<div class="page-header">
-					<h3><img src="assets/images/page-icon.png"> Business Pages</h3>
+					<h3><img src="assets/images/page-icon.png" alt="page-icon"> Business Pages</h3>
 				</div>
 				<div class="page-menus-wrap">
 					<ul>

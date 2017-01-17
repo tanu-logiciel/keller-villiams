@@ -26,7 +26,7 @@
 						</select>
 					</div>
 					<div>
-						<img src="assets/images/full-width-graph.jpg">
+						<img src="assets/images/full-width-graph.jpg" alt="graph">
 					</div>
 					<div class="text-center">
 						<p class="checkboxes-wrap">

@@ -49,7 +49,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -69,7 +69,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -89,7 +89,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -109,7 +109,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -133,7 +133,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -153,7 +153,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -173,7 +173,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -193,7 +193,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -217,7 +217,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -237,7 +237,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -257,7 +257,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
@@ -277,7 +277,7 @@
 				<div class="col-sm-3">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
-							<img src="assets/images/photo-strategy.jpg">
+							<img src="assets/images/photo-strategy.jpg" alt="strategy">
 						</div>
 						<div class="image-detail-wrap">
 							<div class="icons-wrap">
