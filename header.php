@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/introjs.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <style type="text/css">
 	.introjs-helperLayer {
@@ -100,64 +101,41 @@
 					</div>
 					<div class="col-md-6 col-sm-7 text-right header-right-btns">
 						<a href="#" class="btn btn-lg need-help-btn">Need help <i class="fa fa-question-circle" aria-hidden="true"></i></a>
-						<a href="#" class="btn btn-lg register-adopter-btn" data-toggle="modal" data-target="#registerAdopter">Register as an Early Adopter</a>
+						<a href="#register-early-adopter" class="btn btn-lg register-adopter-btn fancybox">Register as an Early Adopter</a>
 					</div>
-
-					<!-- Register popup form start -->
-					<div class="modal fade" id="registerAdopter" tabindex="-1" role="dialog" 
-					     aria-labelledby="myModalLabel" aria-hidden="true">
-					    <div class="modal-dialog">
-					        <div class="modal-content">
-					            <!-- Modal Header -->
-					            <div class="modal-header">
-					                <button type="button" class="close" 
-					                   data-dismiss="modal">
-					                       <span aria-hidden="true">&times;</span>
-					                       <span class="sr-only">Close</span>
-					                </button>
-					                <h4 class="modal-title" id="myModalLabel">
-					                    Modal title
-					                </h4>
-					            </div>
-					            
-					            <!-- Modal Body -->
-					            <div class="modal-body">
-					                
-					                <form role="form">
-					                  <div class="form-group">
-					                    <label for="exampleInputEmail1">Email address</label>
-					                      <input type="email" class="form-control"
-					                      id="exampleInputEmail1" placeholder="Enter email"/>
-					                  </div>
-					                  <div class="form-group">
-					                    <label for="exampleInputPassword1">Password</label>
-					                      <input type="password" class="form-control"
-					                          id="exampleInputPassword1" placeholder="Password"/>
-					                  </div>
-					                  <div class="checkbox">
-					                    <label>
-					                        <input type="checkbox"/> Check me out
-					                    </label>
-					                  </div>
-					                  <button type="submit" class="btn btn-default">Submit</button>
-					                </form>
-					                
-					                
-					            </div>
-					            
-					            <!-- Modal Footer -->
-					            <div class="modal-footer">
-					                <button type="button" class="btn btn-default"
-					                        data-dismiss="modal">
-					                            Close
-					                </button>
-					                <button type="button" class="btn btn-primary">
-					                    Save changes
-					                </button>
-					            </div>
-					        </div>
-					    </div>
-					</div> <!-- Register popup form close -->
+					<div id="register-early-adopter" class="register-form-wrap text-center">
+						<div class="container">
+							<h2 class="title-text">Early Adopter Program</h2>
+							<h3 class="sub-title">Fill the form below to apply<br>early adopter program</h3>
+							<div class="form-cols">
+								<div class="row">
+			                    	<div class="col-sm-6">
+			                    		<div class="form-group">
+			                    			<input type="text" name="" placeholder="First Name" class="form-control">
+			                    		</div>
+			                    	</div>
+			                    	<div class="col-sm-6">
+			                    		<div class="form-group">
+			                    			<input type="text" name="" placeholder="Last Name" class="form-control">
+			                    		</div>
+			                    	</div>
+			                    </div>
+			                    <div class="row">
+			                    	<div class="col-sm-6">
+			                    		<div class="form-group">
+			                    			<input type="email" name="" placeholder="Email" class="form-control">
+			                    		</div>
+			                    	</div>
+			                    	<div class="col-sm-6">
+			                    		<div class="form-group">
+			                    			<input type="text" name="" placeholder="Budget $" class="form-control">
+			                    		</div>
+			                    	</div>
+			                    </div>
+							</div>
+		                    <button class="btn btn-lg apply-now-btn">Apply Now</button>
+						</div>
+					</div>
 				</div>
 				<!-- <div class="page-header">
 					<h3><img src="assets/images/page-icon.png" alt="page-icon"> Business Pages</h3>

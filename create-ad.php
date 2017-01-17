@@ -34,46 +34,15 @@
 		                            <div class="check"></div>
 		                        </div>
 		                    </div>
-		                    <input type="text" name="campaign-type" placeholder="Campaign name" class="form-control">
-		                </div>
-            		</div>
-		            <div class="col-sm-6">
-		                <div class="form-group">
-		                    <div class="age-group">
-		                        <label>Age</label>
-		                        <span>from</span>
-		                        <input type="text" name="" class="form-control">
-		                        <span>to</span>
-		                        <input type="text" name="" class="form-control">
-		                    </div>
-		                    <label>Connections</label>
 		                    <div class="checkbox-col">
 		                        <div class="form-inline">
-		                            <input id="t-option3" name="selector1" type="radio">
-		                            <label for="t-option3">All</label>
-		                            <div class="check"></div>
-		                        </div>
-		                    </div>
-		                    <div class="checkbox-col">
-		                        <div class="form-inline">
-		                            <input id="t-option4" name="selector1" type="radio">
-		                            <label for="t-option4">Who like the page</label>
-		                            <div class="check"></div>
-		                        </div>
-		                    </div>
-		                    <div class="checkbox-col">
-		                        <div class="form-inline">
-		                            <input id="t-option5" name="selector1" type="radio">
-		                            <label for="t-option5">Friends of friends</label>
+		                            <input id="t-option3" name="selector" type="radio">
+		                            <label for="t-option3">Custom</label>
 		                            <div class="check"></div>
 		                        </div>
 		                    </div>
 		                </div>
-		            </div>
-        		</div><br>
-		        <div class="row text-left">
-		            <div class="col-sm-6">
-		                <div class="range-slider">
+						<div class="range-slider">
 		                    <div class="form-group">
 		                        <label>Net Worth</label>
 		                        <img src="assets/images/range-200.png" alt="Range">
@@ -82,10 +51,46 @@
 		                        <label>Income</label>
 		                        <img src="assets/images/range-10.png" alt="Range">
 		                    </div>
+		                    <div class="form-group">
+		                        <label>Age</label>
+		                        <img src="assets/images/range-age.png" alt="Range">
+		                    </div>
 		                </div>
-		            </div>
+            		</div>
 		            <div class="col-sm-6">
-		                <div class="location-group">
+		            	<div class="form-group">
+		                    <label>Campaign Name</label>
+		                </div>
+		                <div class="form-group">
+		                    <input type="text" name="campaign-type" placeholder="My first campaign" class="form-control">
+		                </div>
+		                <div class="connections-wrap">
+			                <div class="form-group">
+			                    <label>Connections</label>
+			                    <div class="checkbox-col">
+			                        <div class="form-inline">
+			                            <input id="t-option3" name="selector1" type="radio">
+			                            <label for="t-option3">All</label>
+			                            <div class="check"></div>
+			                        </div>
+			                    </div>
+			                    <div class="checkbox-col">
+			                        <div class="form-inline">
+			                            <input id="t-option4" name="selector1" type="radio">
+			                            <label for="t-option4">Who like the page</label>
+			                            <div class="check"></div>
+			                        </div>
+			                    </div>
+			                    <div class="checkbox-col">
+			                        <div class="form-inline">
+			                            <input id="t-option5" name="selector1" type="radio">
+			                            <label for="t-option5">Friends of friends</label>
+			                            <div class="check"></div>
+			                        </div>
+			                    </div>
+			                </div>
+		                </div>
+						<div class="location-group">
 		                    <div class="form-group">
 		                        <div class="row">
 		                            <div class="col-sm-3">
@@ -116,7 +121,7 @@
 		                    </div>
 		                </div>
 		            </div>
-		        </div><br>
+        		</div><br>
 		        <div class="row text-left">
 		            <div class="col-sm-12">
 		                <div class="form-group">
@@ -161,19 +166,30 @@
                             <select class="form-control">
                                 <option>Sell your home without effort</option>
                             </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-3">
+                        </div><br>
                         <div class="form-group">
                             <label>Description</label>
                             <textarea class="form-control"></textarea>
                         </div><br>
                         <div class="form-group">
-                            <label>Ad image</label>
+                            <label>Image / Video</label>
                             <div class="browse-option text-center">
                                 <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
                                 <div><span>Upload image</span></div>
                             </div>
+                            <span class="img-video">or</span>
+                            <div class="browse-option text-center add-video-option">
+                                <img src="assets/images/upload-video.png" alt="video">
+                                <div><span>Add video from KW</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-3">
+                        <div class="form-group">
+                            <label>Ad Preview</label>
+                            <select class="form-control">
+                                <option>Desktop News Feed</option>
+                            </select>
                         </div><br>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-md-7">
 					<h1 class="main-title">
-						Real Estate Facebook Manager for Agents
+						Real Estate Facebook Manager <br>for Agents
 					</h1>
 					<h3 class="sub-title-text">
 						If you want to grow, Your<br>
