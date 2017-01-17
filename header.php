@@ -5,17 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="" />
 	<title>Business Pages Web</title>
-
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/introjs.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<style type="text/css">
-	.introjs-helperLayer {
-		background: rgba(255, 0, 0, 0.28);
-	}
-</style>
 </head>
 
 <body>
