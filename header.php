@@ -30,22 +30,22 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="index.php">
 							<img alt="Brand" src="assets/images/logo.png">
 						</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="nav-menu-list collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav main-menu">
 							<li class="active">
-								<a href="#" data-intro='Step1' data-step="1">Key Metrics <span class="sr-only">(current)</span></a>
+								<a href="key-metrics-insights.php" data-intro='Step1' data-step="1">Key Metrics <span class="sr-only">(current)</span></a>
 							</li>
 							<li>
-								<a href="#" data-intro='Step2' data-step="2">Business Pages</a>
+								<a href="business-page-web.php" data-intro='Step2' data-step="2">Business Pages</a>
 							</li>
 							<li>
-								<a href="#" data-intro='Step3' data-step="3">Create Ad</a>
+								<a href="create-ad.php" data-intro='Step3' data-step="3">Create Ad</a>
 							</li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
@@ -87,6 +87,44 @@
 							</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
+					<ul class="nav navbar-nav navbar-right user-info-dropdown">
+						<li class="dropdown">
+							<a href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown"
+								role="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								data-intro='Step4'
+								data-step="4">
+								Vanila Web Studio <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+						<li class="dropdown user-link">
+							<a href="#"
+								class="dropdown-toggle" 
+								data-toggle="dropdown" 
+								role="button" 
+								aria-haspopup="true" 
+								aria-expanded="false"
+								data-intro='Step5'
+								data-step="5">
+								<img src="assets/images/user.png"> <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>

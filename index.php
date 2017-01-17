@@ -13,7 +13,7 @@
 					</h1>
 					<h3 class="sub-title-text">
 						If you want to grow, Your<br>
-						Key Metrics need to
+						<span class="key-metrics-mark">Key Metrics</span> need to
 					</h3>
 					<div>
 						<ul class="needs-list">
@@ -24,7 +24,7 @@
 							<li>Suggestions</li>
 						</ul>
 					</div>
-					<button class="btn fb-btn fb-btn-style"><i class="fa fa-facebook" aria-hidden="true"></i> connect with facebook</button>
+					<button class="btn fb-btn fb-btn-style" onclick="window.location.href='business-page-web.php';"><i class="fa fa-facebook" aria-hidden="true"></i> connect with facebook</button>
 				</div>
 			</div>
 		</div>
