@@ -33,4 +33,10 @@ $(function(){
     $('#connect-page-selection').on('hide.bs.dropdown', function() {
     $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
     });
+
+    // Fancybox call
+    $(".fancybox").fancybox({
+        'autoSize'    : true,
+        // 'padding': 100,
+    });
 })
