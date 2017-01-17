@@ -534,10 +534,10 @@ input.blue[type="checkbox"]:checked + label:after {
 			margin-bottom: 0;
 		}
 		span {
-			padding: 0 15px;
+			padding: 0 10px;
 		}
 		input {
-			width: 30%;
+			width: 28%;
 		}
 	}
 	.range-slider {
@@ -560,9 +560,65 @@ input.blue[type="checkbox"]:checked + label:after {
 	}
 	.schedule-select {
 		select {
-			width: 28%;
+			width: 12%;
 			padding-left: 0;
 			margin-top: -9px;
+		}
+	}
+}
+@media(max-width: 1200px) {
+	.create-ad {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+@media(max-width: 991px) {
+	.create-ad {
+		padding: 35px;
+		.range-slider label {
+			width: 100%;
+		}
+		.schedule-select select {
+			width: 20%;
+		}
+	}
+}
+@media(max-width: 767px) {
+	.create-ad {
+	    .location-group {
+	    	input, select {
+	    		margin-bottom: 10px;
+	    	}
+	    }
+	    .schedule-select select {
+		    display: inline-block;
+		    margin: 0;
+		    width: 25%;
+		}
+		textarea.form-control {
+		    min-height: 100px;
+		}
+	}
+}
+@media(max-width: 480px) { 
+	.create-ad { 
+		.age-group {
+			span, input, label {
+				display: block;
+				width: 100%;
+			}
+			span {
+				padding-left: 0;
+			}
+		}
+		.checkbox-col {
+			display: block;
+			margin-bottom: 0;
+		}
+		.schedule-select select {
+			margin: 10px 0 0;
+			display: block;
+			width: 100%;
 		}
 	}
 }
