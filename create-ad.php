@@ -205,7 +205,7 @@
                             <div class="ad-preview-wrap">
                             	<div class="preview-outer">
                             		<div class="ad-title">
-                            			<img src="assets/images/ad-img.png">
+                            			<img src="assets/images/ad-img.png" alt="Ad">
                             			<h5>Jayna Love Homes - Keller Williams</h5>
                             			<span>Sponsored</span>
                             		</div>
