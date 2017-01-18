@@ -72,7 +72,7 @@
 								aria-expanded="false"
 								data-intro='Step5'
 								data-step="5">
-								<img src="assets/images/user.png" src="user-avatar"> <span class="fa fa-angle-down"></span></a>
+								<img src="assets/images/user.png" alt="user-avatar"> <span class="fa fa-angle-down"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Action</a></li>
 								<li><a href="#">Another action</a></li>
