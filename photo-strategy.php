@@ -5,6 +5,8 @@
 <div class="container">
 	<div class="content-wrap wizard-container">
 		<div class="photo-container">
+
+			<!-- Photo strategy filter & search bar -->
 			<div class="row filter-bar-wrap">
 				<div class="">
 					<div class="col-sm-4">
@@ -45,6 +47,8 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Photos columns -->
 			<div class="row photo-post-row">
 				<div class="col-sm-3">
 					<div class="photo-col-inner">

@@ -7,6 +7,8 @@
 		<h1>Here you can create your Facebook Campaign</h1>
 		<h3>Fill the information below to create your first ad</h3>
 		<div id="wizard-steps" class="wizard-steps">
+
+			<!-- Campaign Setup Section -->
             <h6>Campaign setup</h6>
             <div class="wizard-inner-section">
                 <div class="row text-left">
@@ -122,6 +124,8 @@
 		                </div>
 		            </div>
         		</div><br>
+
+        		<!-- Schedule -->
 		        <div class="row text-left">
 		            <div class="col-sm-12">
 		                <div class="form-group">
@@ -150,7 +154,9 @@
 		                </div>
 		            </div>
 		        </div>
-    		</div>
+    		</div> <!-- End Campaign setup section -->
+
+    		<!-- Ad creation Section -->
             <h6>Ad creation</h6>
             <div class="wizard-inner-section">
                 <div class="row text-left">
@@ -173,15 +179,15 @@
                         </div><br>
                         <div class="form-group">
                             <label>Image / Video</label>
-                            <a href="#image-video-popup" class="fancybox">
+                            <a href="#image-video-popup" class="fancybox browse-option-outer">
 	                            <div class="browse-option text-center">
 	                                <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
 	                                <div><span>Upload image</span></div>
 	                            </div>
 	                        </a>
                             <span class="img-video">or</span>
-                            <a href="#image-video-popup" class="fancybox">
-                            	<div class="browse-option text-center add-video-option">
+                            <a href="#image-video-popup" class="fancybox browse-option-outer add-video-option">
+                            	<div class="browse-option text-center">
 	                                <img src="assets/images/upload-video.png" alt="video">
 	                                <div><span>Add video from KW</span></div>
 	                            </div>
@@ -191,6 +197,8 @@
                     <div id="image-video-popup">
                     	<?php include('add-video.php'); ?>
                     </div>
+
+                    <!-- Ad Preview Section -->
                     <div class="col-md-4 col-sm-6 col-md-offset-3">
                         <div class="form-group">
                             <label>Ad Preview</label>
@@ -226,7 +234,7 @@
                         </div><br>
                     </div>
                 </div>
-            </div>
+            </div> <!-- End Ad Creation section -->
         </div>
 	</div>
 </div>

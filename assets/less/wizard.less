@@ -405,10 +405,14 @@
 	}
 }
 .create-ad.wizard-container {
+	a.browse-option-outer {
+		width: 180px;
+		display: inline-block;
+	}
 	.browse-option {
 		display: inline-block;
 		padding: 20px 10px;
-		width: 180px;
+		width: 100%;
 		color: @grey-color;
 		span {
 			font-size: 16px;
@@ -429,8 +433,11 @@
 	    width: 30px;
 	    margin: auto;
 	    @media(max-width: 1199px) {
-			top: 52%;
-			width: 175px;
+			display: block;
+			position: static;
+			margin: -20px 0 5px 0;
+			width: 180px;
+
 		}
 	}
 	.add-video-option {

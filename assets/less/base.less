@@ -13,6 +13,12 @@ a {
 }
 .fancybox-close {
 	background-image: url(../images/fancybox_sprite.png);
+	background-repeat: no-repeat;
+	top: 15px;
+	right: 15px;
+	height: 25px;
+	width: 25px;
+	background-size: 100%;
 }
 .fancybox-overlay {
 	background: url(../images/fancybox_overlay.png);
@@ -83,6 +89,7 @@ a {
 			left: 0;
 			right: 0;
 			line-height: 110px;
+			top: 2.5px;
 		}
 	}
 }
@@ -105,9 +112,10 @@ a {
 }
 .selection-outer {
 	text-align: right;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .selection-style {
+	margin-bottom: 10px;
 	height: 25px;
 	min-width: 105px;
     border-radius: 4px;
@@ -125,6 +133,9 @@ a {
 	outline: 0;
 	&:last-child {
 		margin-right: 0;
+	}
+	@media(max-width: 992px) {
+		margin-right: 15px;
 	}
 	@media(max-width: 540px) {
 		margin-right: 0;
@@ -148,22 +159,27 @@ a {
 	vertical-align: top;
 	margin-top: 3px;
 	color: #aaaaaa;
+	font-size: 11px;
 }
-input.red[type="checkbox"]:not(:checked) + label:after,
-input.red[type="checkbox"]:not(:checked) + label:before,
-input.red[type="checkbox"]:checked + label:after {
+.graph-sign {
+	height: 18px;
+    width: 18px;
+    .radius(4px);
+    display: inline-block;
+    border: 2px solid #f38f7f;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 3px;
+}
+.graph-sign-red {
 	border-color: #f38f7f;
-	.radius(4px);
 }
-input.blue[type="checkbox"]:not(:checked) + label:after,
-input.blue[type="checkbox"]:not(:checked) + label:before,
-input.blue[type="checkbox"]:checked + label:after {
+.graph-sign-blue {
 	border-color: #7fb5f3;
-	.radius(4px);
 }
 .table.like-counts {
 	font-size: 16px;
-	margin-bottom: 72px;
+	margin-bottom: 75px;
 	tr {
 		border-bottom: 1px solid #eceded;
 		&:last-child {
@@ -210,6 +226,12 @@ input.blue[type="checkbox"]:checked + label:after {
 		@media(max-width: 1200px) {
 			font-size: 40px;
 		}
+		@media(max-width: 992px) {
+			display: block;
+			margin: auto;
+			width: 150px;
+			text-align: center;
+		}
 		&:after {
 			position: absolute;
 			height: 6px;
@@ -226,8 +248,13 @@ input.blue[type="checkbox"]:checked + label:after {
 			margin-top: -9px;
 		}
 	}
+	.count-outer {
+		width: 75%;
+		text-align: right;
+		margin: auto;
+	}
 	.compared-col {
-		text-align: center;
+		text-align: right;
 		.compare-to {
 			font-size: 22px;
 		}
@@ -238,9 +265,15 @@ input.blue[type="checkbox"]:checked + label:after {
 			.small {
 				color: #a8aaac;
 			}
+			@media(max-width: 1199px) {
+				font-size: 23px;
+			}
 		}
 		h3 {
 			font-size: 20px;
+		}
+		@media(max-width: 991px) {
+			text-align: center;
 		}
 	}
 	.icon-with-text {
@@ -263,8 +296,9 @@ input.blue[type="checkbox"]:checked + label:after {
 			}
 		}
 	}
-	@media (max-width: 992px) {
+	@media (max-width: 767px) {
 		border-bottom: 2px solid #ededee;
+		padding-bottom: 30px;
 	}
 }
 .percent-comparison-col-1,
@@ -278,7 +312,7 @@ input.blue[type="checkbox"]:checked + label:after {
 		background: #e6e7e7;
 		right: 0;
 		top: 0;
-		@media(max-width: 992px) {
+		@media(max-width: 767px) {
 			display: none;
 		}
 	}
@@ -298,6 +332,9 @@ input.blue[type="checkbox"]:checked + label:after {
 				color: #ef632e;
 			}
 		}
+		@media(max-width: 767px) {
+			margin-bottom: 40px;
+		}
 	}
 	&:before {
 		position: absolute;
@@ -309,7 +346,7 @@ input.blue[type="checkbox"]:checked + label:after {
 		left: 0;
 		right: 0;
 		top: -20px;
-		@media(max-width: 992px) {
+		@media(max-width: 767px) {
 			display: none;
 		}
 	}
@@ -366,7 +403,7 @@ input.blue[type="checkbox"]:checked + label:after {
 		}
 	}
 }
-@media(max-width: 768px) {
+@media(max-width: 767px) {
 	.suggestions-container {
 		.suggest-col {
 			width: 100%;
@@ -402,6 +439,9 @@ input.blue[type="checkbox"]:checked + label:after {
 				th {
 					color: #888a8b;
 					font-size: 16px;
+					@media(max-width: 992px) {
+						font-size: 14px;
+					}
 				}
 			}
 		}
@@ -424,7 +464,7 @@ input.blue[type="checkbox"]:checked + label:after {
 		background-position: center right;
 		background-size: 35px;
 		padding-top: 15px;
-		padding-bottom: 10px;
+		padding-bottom: 15px;
 		.box-shadow(none);
 		border-color: #bbbdbe;
 		font-size: 17px;
@@ -450,7 +490,7 @@ input.blue[type="checkbox"]:checked + label:after {
 			border-bottom: 1px solid #bbbdbe;
 			a {
 				padding-top: 15px;
-				padding-bottom: 10px;
+				padding-bottom: 15px;
 				padding-right: 40px;
 				display: block;
 				font-size: 17px;

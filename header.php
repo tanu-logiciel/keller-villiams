@@ -85,6 +85,8 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>
+
+		<!-- Page Title Section -->
 		<div class="page-title-header">
 			<div class="container">
 				<div class="row">
@@ -131,9 +133,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="page-header">
-					<h3><img src="assets/images/page-icon.png" alt="page-icon"> Business Pages</h3>
-				</div> -->
+				<!-- Page Menus -->
 				<div class="page-menus-wrap">
 					<ul>
 						<li class="active-page">

@@ -7,6 +7,8 @@
 		<h1>Welcome to the Business Account Manager</h1>
 		<h3>Please complete steps below to add your page </h3>
 		<div id="wizard-steps" class="wizard-steps">
+
+                <!-- Information Section -->
                 <h6>Informations</h6>
                 <div class="wizard-inner-section">
                     <div class="row">
@@ -42,6 +44,8 @@
                     	<input type="text" name="" placeholder="Website" class="form-control">
                     </div>
                 </div>
+
+                <!-- About Section -->
                 <h6>About</h6>
                 <div class="wizard-inner-section">
                     <div class="form-group">
@@ -51,6 +55,8 @@
                     	<textarea class="form-control" rows="4" placeholder="Page Description"></textarea>
                     </div>
                 </div>
+
+                <!-- Location Section -->
                 <h6>Location</h6>
                 <div class="wizard-inner-section">
                     <div class="row">

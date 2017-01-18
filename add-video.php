@@ -1,4 +1,4 @@
-<!-- Content Part -->
+<!-- Select Image/Video Section -->
 <div class="container">
 	<div class="content-wrap business-page-custom-wrap wizard-container">
 		<div class="photo-container">
