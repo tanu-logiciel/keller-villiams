@@ -25,7 +25,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#">
-							<img alt="Brand" src="assets/images/main-logo.png">
+							<img alt="Brand" src="assets/images/main-logo.png" height="60">
 						</a>
 					</div>
 
