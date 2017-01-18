@@ -173,16 +173,23 @@
                         </div><br>
                         <div class="form-group">
                             <label>Image / Video</label>
-                            <div class="browse-option text-center">
-                                <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
-                                <div><span>Upload image</span></div>
-                            </div>
+                            <a href="#image-video-popup" class="fancybox">
+	                            <div class="browse-option text-center">
+	                                <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
+	                                <div><span>Upload image</span></div>
+	                            </div>
+	                        </a>
                             <span class="img-video">or</span>
-                            <div class="browse-option text-center add-video-option">
-                                <img src="assets/images/upload-video.png" alt="video">
-                                <div><span>Add video from KW</span></div>
-                            </div>
+                            <a href="#image-video-popup" class="fancybox">
+                            	<div class="browse-option text-center add-video-option">
+	                                <img src="assets/images/upload-video.png" alt="video">
+	                                <div><span>Add video from KW</span></div>
+	                            </div>
+                            </a>
                         </div>
+                    </div>
+                    <div id="image-video-popup">
+                    	<?php include('add-video.php'); ?>
                     </div>
                     <div class="col-md-4 col-sm-6 col-md-offset-3">
                         <div class="form-group">
