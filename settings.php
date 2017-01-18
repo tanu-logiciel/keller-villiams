@@ -4,8 +4,10 @@
 <!-- Content Part -->
 <div class="container">
 	<div class="content-wrap business-page-custom-wrap settings-wrap wizard-container">
-		<h1 class="text-center">Settings</h1>
-		<div class="settings-form-wrap">
+		<h1 class="text-center">Settings</h1><br>
+
+        <!-- Personal details form -->
+        <div class="settings-form-wrap">
             <h3 class="title-text">Personal Details</h3><br><br>
             <div class="row">
             	<div class="col-md-6 col-sm-6">
@@ -49,7 +51,8 @@
             	</div>
             </div>
         </div><br><br><br>
-
+        
+        <!-- Credit card details form -->
         <div class="settings-form-wrap">
             <h3 class="title-text">Credit Card Details</h3><br><br>
             <div class="row">

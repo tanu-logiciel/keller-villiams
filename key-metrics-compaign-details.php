@@ -6,6 +6,7 @@
 	<div class="content-wrap">
 		<div class="row custom-row">
 			<div class="col-md-12">
+				<!-- Campgin details graph -->
 				<div class="custom-col no-padding-btm">
 					<div class="selection-outer">
 						<select class="selection-style">
@@ -30,7 +31,7 @@
 					</div>
 					<div class="text-center">
 						<p class="checkboxes-wrap">
-						    <input type="checkbox" id="organic" class="red"/>
+						    <span class="graph-sign graph-sign-red"></span>
 						    <label for="organic">Reach</label>
 						</p>
 					</div>

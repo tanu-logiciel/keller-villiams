@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="" />
-	<title>Business Pages Web</title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/introjs.min.css">
@@ -25,7 +25,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#">
-							<img alt="Brand" src="assets/images/main-logo.png">
+							<img alt="Brand" src="assets/images/main-logo.png" height="60">
 						</a>
 					</div>
 

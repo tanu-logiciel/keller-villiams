@@ -5,7 +5,8 @@
 <div class="container">
 	<div class="content-wrap">
 		<div class="row custom-row">
-			<div class="col-md-6 col-sm-6">
+			<!-- Insights col 1 -->
+			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<div class="selection-outer">
 						<select class="selection-style">
@@ -30,18 +31,19 @@
 					</div>
 					<div class="text-center">
 						<p class="checkboxes-wrap">
-						    <input type="checkbox" id="organic" class="red"/>
+						    <span class="graph-sign graph-sign-red"></span>
 						    <label for="organic">Organic</label>
 						</p>
 						<p class="vs small">VS</p>
 						<p class="checkboxes-wrap">
-						    <input type="checkbox" id="paid" class="blue"/>
+						    <span class="graph-sign graph-sign-blue"></span>
 						    <label for="paid">Paid</label>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-6">
+			<!-- Insights col 2 -->
+			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<div class="selection-outer">
 						<select class="selection-style">
@@ -66,12 +68,12 @@
 					</div>
 					<div class="text-center">
 						<p class="checkboxes-wrap">
-						    <input type="checkbox" id="organic" class="red"/>
+							<span class="graph-sign graph-sign-red"></span>
 						    <label for="organic">Vanila Web Studio</label>
 						</p>
 						<p class="vs small">VS</p>
 						<p class="checkboxes-wrap">
-						    <input type="checkbox" id="paid" class="blue"/>
+							<span class="graph-sign graph-sign-blue"></span>
 						    <label for="paid">Average</label>
 						</p>
 					</div>
@@ -81,6 +83,7 @@
 
 		<!-- Details -->
 		<div class="row custom-row">
+			<!-- Insights col 3 -->
 			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<h2 class="details-title">Page details</h2>
@@ -118,28 +121,32 @@
 					</table>
 				</div>
 			</div>
-
+			<!-- Insights col 4 -->
 			<div class="col-md-6 col-sm-12">
 				<div class="custom-col">
 					<div class="row">
-						<div class="col-md-6 percent-comparison-col-1">
+						<div class="col-md-6 col-sm-6 percent-comparison-col-1">
 							<div class="percent-counter-wrapper">
-								<h1 class="count-percent"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> 24.7%</h1>
-								<div class="compared-col">
-									<h3>compared to</h3>
-									<h3 class="compared-percent">19.3% <span class="small">Average</span></h3>
+								<div class="count-outer">
+									<h1 class="count-percent"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> 24.7%</h1>
+									<div class="compared-col">
+										<h3>compared to</h3>
+										<h3 class="compared-percent">19.3% <span class="small">Average</span></h3>
+									</div>
 								</div>
 								<div class="icon-with-text">
 									<h3 class="audience"><img src="assets/images/speaker.jpg" alt="speaker"> Fans Reached</h3>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 percent-comparison-col-2">
+						<div class="col-md-6 col-sm-6 percent-comparison-col-2">
 							<div class="percent-counter-wrapper">
-								<h1 class="count-percent"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> 33.4%</h1>
-								<div class="compared-col">
-									<h3>compared to</h3>
-									<h3 class="compared-percent">24.5% <span class="small">Average</span></h3>
+								<div class="count-outer">
+									<h1 class="count-percent"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> 33.4%</h1>
+									<div class="compared-col">
+										<h3>compared to</h3>
+										<h3 class="compared-percent">24.5% <span class="small">Average</span></h3>
+									</div>
 								</div>
 								<div class="icon-with-text">
 									<h3 class="audience"><img src="assets/images/hash.jpg" alt="hash"> Engagement</h3>
@@ -148,24 +155,28 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 percent-comparison-col-3">
+						<div class="col-md-6 col-sm-6 percent-comparison-col-3">
 							<div class="percent-counter-wrapper">
-								<h1 class="count-percent"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> 17.5%</h1>
-								<div class="compared-col">
-									<h3>compared to</h3>
-									<h3 class="compared-percent">12.4% <span class="small">Average</span></h3>
+								<div class="count-outer">
+									<h1 class="count-percent"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> 17.5%</h1>
+									<div class="compared-col">
+										<h3>compared to</h3>
+										<h3 class="compared-percent">12.4% <span class="small">Average</span></h3>
+									</div>
 								</div>
 								<div class="icon-with-text">
 									<h3 class="audience"><img src="assets/images/arrow-right.jpg" alt="arrow-right"> Viral Reach</h3>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 percent-comparison-col-4">
+						<div class="col-md-6 col-sm-6 percent-comparison-col-4">
 							<div class="percent-counter-wrapper">
-								<h1 class="count-percent"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> 19.2%</h1>
-								<div class="compared-col">
-									<h3>compared to</h3>
-									<h3 class="compared-percent">17.3% <span class="small">Average</span></h3>
+								<div class="count-outer">
+									<h1 class="count-percent"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> 19.2%</h1>
+									<div class="compared-col">
+										<h3>compared to</h3>
+										<h3 class="compared-percent">17.3% <span class="small">Average</span></h3>
+									</div>
 								</div>
 								<div class="icon-with-text">
 									<h3 class="audience"><img src="assets/images/leaf.jpg" alt="leaf"> Organic Reach</h3>
