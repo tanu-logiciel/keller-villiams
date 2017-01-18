@@ -6,7 +6,7 @@
 	<div class="content-wrap">
 		<div class="row custom-row">
 			<div class="col-md-12">
-				<div class="custom-col" style="padding-bottom:0;">
+				<div class="custom-col no-padding-btm">
 					<div class="selection-outer">
 						<select class="selection-style">
 							<optgroup>

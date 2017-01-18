@@ -154,7 +154,7 @@
             <h6>Ad creation</h6>
             <div class="wizard-inner-section">
                 <div class="row text-left">
-                    <div class="col-sm-5">
+                    <div class="col-md-5 col-sm-6">
                         <div class="form-group">
                             <label>Select Page</label>
                             <select class="form-control">
@@ -173,23 +173,56 @@
                         </div><br>
                         <div class="form-group">
                             <label>Image / Video</label>
-                            <div class="browse-option text-center">
-                                <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
-                                <div><span>Upload image</span></div>
-                            </div>
+                            <a href="#image-video-popup" class="fancybox">
+	                            <div class="browse-option text-center">
+	                                <img src="assets/images/upload-avatar.png" height="50" alt="avatar">
+	                                <div><span>Upload image</span></div>
+	                            </div>
+	                        </a>
                             <span class="img-video">or</span>
-                            <div class="browse-option text-center add-video-option">
-                                <img src="assets/images/upload-video.png" alt="video">
-                                <div><span>Add video from KW</span></div>
-                            </div>
+                            <a href="#image-video-popup" class="fancybox">
+                            	<div class="browse-option text-center add-video-option">
+	                                <img src="assets/images/upload-video.png" alt="video">
+	                                <div><span>Add video from KW</span></div>
+	                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-sm-offset-3">
+                    <div id="image-video-popup">
+                    	<?php include('add-video.php'); ?>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-md-offset-3">
                         <div class="form-group">
                             <label>Ad Preview</label>
-                            <select class="form-control">
-                                <option>Desktop News Feed</option>
-                            </select>
+                            <div class="ad-preview-wrap">
+                            	<div class="preview-outer">
+                            		<div class="ad-title">
+                            			<img src="assets/images/ad-img.png">
+                            			<h5>Jayna Love Homes - Keller Williams</h5>
+                            			<span>Sponsored</span>
+                            		</div>
+                            		<div class="ad-desc">
+                            			<p>
+                            				Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                            			</p>
+                            		</div>
+                            		<div class="preview-details">
+	                            		<div class="preview-img text-center">
+	                            			<img src="assets/images/ad-preview.png" alt="preview">
+	                            		</div>
+	                            		<div class="sell-home-wrap">
+	                            			<h5>Sell your home without effort</h5>
+	                            			<a href="#">https//someurl.com</a>
+	                            		</div>
+                            		</div>
+                            		<p class="total-likes">9 Likes</p>
+                            		<div class="social-status">
+                            			<span><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</span>
+                            			<span><i class="fa fa-commenting" aria-hidden="true"></i> Comment</span>
+                            			<span><i class="fa fa-share" aria-hidden="true"></i> Share</span>
+                            		</div>
+                            	</div>
+                            </div>
                         </div><br>
                     </div>
                 </div>

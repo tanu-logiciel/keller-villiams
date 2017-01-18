@@ -409,8 +409,13 @@
 		display: inline-block;
 		padding: 20px 10px;
 		width: 180px;
+		color: @grey-color;
 		span {
 			font-size: 16px;
+		}
+		@media(max-width: 1199px) {
+			display: block;
+			margin-bottom: 30px;
 		}
 	}
 	.img-video {
@@ -421,8 +426,17 @@
 	    text-align: center;
 	    font-size: 16px;
 	    color: @black-color;
+	    width: 30px;
+	    margin: auto;
+	    @media(max-width: 1199px) {
+			top: 52%;
+			width: 175px;
+		}
 	}
 	.add-video-option {
 		float: right;
+		@media(max-width: 1199px) {
+			float: none;
+		}
 	}
 }
