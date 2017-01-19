@@ -30,6 +30,11 @@ body.main-pages {
 				a {
 					color: @grey-color;
 					padding: 23px 20px 18px;
+					.transition(all .5s ease);
+					&:hover,
+					&:focus {
+						color: darken(@grey-color, 30%);
+					}
 				}
 				&:after {
 					position: absolute;

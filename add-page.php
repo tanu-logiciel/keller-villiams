@@ -9,7 +9,7 @@
 		<div id="wizard-steps" class="wizard-steps">
 
                 <!-- Information Section -->
-                <h6>Informations</h6>
+                <h6>Information</h6>
                 <div class="wizard-inner-section">
                     <div class="row">
                     	<div class="col-sm-6">
