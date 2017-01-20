@@ -114,6 +114,7 @@
 				}
 			}
 		}
+		
 	}
 }
 .page-title-header {
@@ -241,8 +242,13 @@
 	}
 }
 @media (max-width: 767px) {
-	.navbar-toggle {
-		margin-top: 15px;
+	.navbar-default {
+		.navbar-toggle {
+			margin-top: 15px;
+			&:focus {
+				background-color: #fff;
+			}
+		}
 	}
 	.top-bar {
 		.user-info-dropdown {

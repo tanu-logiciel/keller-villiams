@@ -14,8 +14,8 @@ a {
 .fancybox-close {
 	background-image: url(../images/fancybox_sprite.png);
 	background-repeat: no-repeat;
-	top: 15px;
-	right: 15px;
+	top: 30px;
+	right: 30px;
 	height: 25px;
 	width: 25px;
 	background-size: 100%;
@@ -68,6 +68,11 @@ a {
 	.custom-btn-style {
 		margin-top: 30px;
 	}
+	@media(max-width: 991px) {
+		.title-text {
+			font-size: 25px;
+		}
+	}
 }
 .add-page-wrap {
 	text-align: center;
@@ -90,6 +95,11 @@ a {
 			right: 0;
 			line-height: 110px;
 			top: 2.5px;
+		}
+	}
+	@media(max-width: 991px) {
+		.title-text {
+			font-size: 25px;
 		}
 	}
 }
@@ -115,22 +125,16 @@ a {
 	margin-bottom: 20px;
 }
 .selection-style {
+	margin-right: 25px;
 	margin-bottom: 10px;
 	height: 25px;
 	min-width: 105px;
-    border-radius: 4px;
     padding-left: 5px;
     padding-right: 20px;
-    border-color: #adadad;
+    border-color: #ccc;
     color: @grey-color;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-		-ms-appearance: none;
-    		appearance: none;
-	background: url('../images/arrow-down.png') no-repeat;
-	background-position: center right;
-	margin-right: 25px;
 	outline: 0;
+    .radius(4px);
 	&:last-child {
 		margin-right: 0;
 	}
@@ -139,8 +143,8 @@ a {
 	}
 	@media(max-width: 540px) {
 		margin-right: 0;
-		width: 100%;
 		margin-bottom: 10px;
+		width: 100%;
 	}
 }
 .selection-style::-ms-expand { /* for IE 11 */
@@ -377,7 +381,7 @@ a {
 		p {
 	    	position: relative;
 			margin: 0;
-			padding: 10px;
+			padding: 10px 6px;
 			background-color: #f9f9f9;
 			border-bottom-left-radius: 10px;
 		    border-bottom-right-radius: 10px;
@@ -496,6 +500,19 @@ a {
 				font-size: 17px;
 				color: @grey-color;
 				white-space: normal;
+			}
+		}
+	}
+	@media(max-width: 991px) {
+		width: 100%;
+		.dropdown-toggle {
+			font-size: 15px;
+		}
+		.dropdown-menu {
+			li {
+				a {
+					font-size: 15px;
+				}
 			}
 		}
 	}
@@ -775,9 +792,12 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 		.radius(6px);
+		.transition(all 0.3s ease);
 		.image-detail-wrap {
+			.transition(all 0.3s ease);
 			.icons-wrap {
 				font-size: 12px;
+				.transition(all 0.3s ease);
 			}
 		}
 		&:hover {

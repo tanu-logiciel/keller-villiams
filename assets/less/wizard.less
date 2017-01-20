@@ -364,6 +364,8 @@
 	.wizard-steps {
 		.steps ul li {
 			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
 			&:first-child {
 				a {
 					&:before {
@@ -386,6 +388,15 @@
 				margin-bottom: 10px;
 				a[href="#next"], a[href="#finish"] { 
 					float: none;
+				}
+			}
+		}
+		ul {
+			& > li {
+				a {
+					button {
+						width: 105px;
+					}
 				}
 			}
 		}
@@ -444,6 +455,14 @@
 		float: right;
 		@media(max-width: 1199px) {
 			float: none;
+		}
+	}
+	@media(max-width: 767px) {
+		a.browse-option-outer {
+			width: 100%;
+		}
+		.img-video {
+			width: 100%;
 		}
 	}
 }

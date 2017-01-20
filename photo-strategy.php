@@ -50,7 +50,7 @@
 
 			<!-- Photos columns -->
 			<div class="row photo-post-row">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -70,7 +70,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -110,7 +110,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -130,11 +130,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- 2nd row -->
-			<div class="row photo-post-row">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -154,7 +151,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -174,7 +171,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -194,7 +191,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -214,11 +211,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<!-- 3rd row -->
-			<div class="row photo-post-row">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -238,7 +231,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -258,7 +251,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
@@ -278,7 +271,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="photo-col-inner">
 						<div class="image-wrap">
 							<img src="assets/images/photo-strategy.jpg" alt="strategy">
